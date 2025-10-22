@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study Materials Hub</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
-    <h1>Study Materials Hub</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="subjects/math.html">Math</a>
-      <a href="subjects/science.html">Science</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Study Materials Hub</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#materials">Materials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h2>Welcome to Study Materials Hub!</h2>
-    <p>Your free resource for notes, guides, and study PDFs.</p>
-  </main>
+  <section class="hero">
+    <div class="container">
+      <h2>Free Study Resources</h2>
+      <p>Download notes and materials for all major subjects.</p>
+    </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Study Materials Hub</p>
+  <section id="materials" class="materials">
+    <div class="container">
+      <h2>Subjects</h2>
+
+      <div class="card">
+        <h3>Math</h3>
+        <p>Download math notes and practice problems.</p>
+        <a href="assets/pdfs/math-notes.pdf" download class="btn">Download PDF</a>
+      </div>
+
+      <div class="card">
+        <h3>Science</h3>
+        <p>Concepts, formulas, and theory in one place.</p>
+        <a href="assets/pdfs/science-notes.pdf" download class="btn">Download PDF</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <p>Contact: studyhub@example.com</p>
+      <p>&copy; 2025 Study Materials Hub</p>
+    </div>
   </footer>
+
 </body>
 </html>
