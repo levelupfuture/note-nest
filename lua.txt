@@ -3,6 +3,6 @@ study-site/
 ├── css/
 │   └── style.css
 ├── assets/
-│   └── pdfs/
-│       ├── math-notes.pdf
-│       └── science-notes.pdf
+│   └── ppts
+│       └── science-notes.ppt
+
